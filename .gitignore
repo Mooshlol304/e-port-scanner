@@ -1,0 +1,9 @@
+# Ignore stuff 
+build.rs
+cargo.lock
+
+# Add other files/folders you may want to ignore
+target/
+.env
+*.log
+*.swp

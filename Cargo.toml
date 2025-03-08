@@ -1,0 +1,15 @@
+[package]
+name = "e"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+warp = "0.3"
+tokio = { version = "1", features = ["full"] }
+colored = "3.0.0"
+rayon = "1.8"
+get_if_addrs = "0.5"
+crossterm = "0.28.1"
+
+[build-dependencies]
+winres = "0.1"
